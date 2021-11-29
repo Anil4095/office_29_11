@@ -1,0 +1,123 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body{
+  background-color: aquamarine;
+}
+
+
+
+form {
+
+  height: 100px;
+  background:cornflowerblue;
+  padding: 2rem;
+  border-radius: 1rem;
+  outline: none;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+form label{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+form input{
+  
+  min-width: 15rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border:none;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  outline: none;
+}
+button{
+  border: none;
+  padding: 0.3rem 1rem;
+  text-align: center;
+  margin-top: 1rem;
+   font-family: 'raleway' sans-serif;
+   border-radius: 0.3rem;
+   cursor: pointer;
+   outline: none;
+
+}
+button[type]:hover{
+  background-color: darkblue;
+  color: aliceblue;
+}
+.showDataStyle{
+  min-width: 20rem;
+  width: 60rem;
+  min-height: 2rem;
+  padding: 1rem;
+  color:blue;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 1rem;
+  margin-left: 180px;
+  box-shadow: 0,2,2,4;
+}
+.showDataStyle p{
+  font-size: 1.5rem;
+}
+.showDataStyle p:first-child{
+  font-weight: bold;
+}
+
+.main-div{
+  align-items: center;
+  padding: 40px;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+.p-div{
+  margin-left: 60px;
+}
